@@ -17,6 +17,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+# Slimmer template
+gem 'slim-rails'
+# Simpler form
+gem 'simple_form'
+# CSS framework
+gem 'bootstrap-sass'
 # Authentication
 gem 'devise'
 

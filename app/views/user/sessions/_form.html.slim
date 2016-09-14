@@ -1,0 +1,8 @@
+= simple_form_for resource, url: user_session_path, remote: true do |f|
+
+  = f.error_notification message: f.object.errors.full_messages.to_sentence
+
+  = f.input :email
+  = f.input :password
+  
+  = f.button :submit, 'Sign in'
